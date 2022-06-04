@@ -14,6 +14,7 @@ Bash:
 Fish bash:
 ```
   pip install Django
+  pip install django-rest-framework
 ```
     
 * Django setting project:
