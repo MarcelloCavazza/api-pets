@@ -28,3 +28,15 @@ Fish bash:
 ```
   python manage.py runserver
 ```
+* Django setting migrations that create models that will go to the database:
+
+Fish bash:
+```
+  python manage.py makemigrations
+```
+* Django applying all the setted migrations to the database:
+
+Fish bash:
+```
+  python manage.py makemigrations
+```
