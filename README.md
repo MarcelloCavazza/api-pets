@@ -5,7 +5,8 @@
 Bash:
 ```
   python3 -m venv .venv # create basic system files
-  source .venv/bin/activate.fish  #to enter in fish's terminal
+  fish #to enter fish's terminal
+  source .venv/bin/activate.fish  #to gain acess to execute the local server
 ```
 
 * Django instalation:
