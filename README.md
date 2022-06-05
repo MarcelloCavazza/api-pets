@@ -23,6 +23,12 @@ Fish bash:
 ```
   django-admin startproject api_pets .
 ```
+* Django creating app to develop:
+
+Fish bash:
+```
+  python manage.py startapp pet
+```
 * Django executing server:
 
 Fish bash:
