@@ -3,6 +3,7 @@ from rest_framework.views import APIView
 from rest_framework.status import HTTP_201_CREATED, HTTP_400_BAD_REQUEST
 from .serializers import AdoptionSerializer
 
+
 class AdoptionList(APIView):
     def post(self, request, format=None):
         serializer = AdoptionSerializer(data=request.data)
@@ -11,7 +12,8 @@ class AdoptionList(APIView):
             return Response(serializer.data, status=HTTP_201_CREATED)
         return Response(
             {
-                'erros': serializer.errors,
-                'message': 'Validation error happened',
+                "erros": serializer.errors,
+                "message": "Validation error happened",
             },
-            status=HTTP_400_BAD_REQUEST)
+            status=HTTP_400_BAD_REQUEST,
+        )

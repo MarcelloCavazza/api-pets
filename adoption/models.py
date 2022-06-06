@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class Adoption(models.Model):
     price = models.DecimalField(null=False, blank=False, max_digits=5, decimal_places=2)
     email = models.EmailField(null=False, blank=False, max_length=255)

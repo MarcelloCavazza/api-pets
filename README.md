@@ -47,3 +47,10 @@ Fish bash:
 ```
   python manage.py makemigrations
 ```
+* Install PEP 8 :
+
+Fish bash:
+```
+  pip install black
+  black . #fomart everything
+```

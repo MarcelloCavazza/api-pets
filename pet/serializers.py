@@ -3,6 +3,6 @@ from .models import Pet
 
 
 class PetSerializer(serializers.ModelSerializer):
-    class Meta: 
+    class Meta:
         model = Pet
-        fields = ('id', 'name', 'description', 'picture')
+        fields = ("id", "name", "description", "picture")
